@@ -4,7 +4,10 @@ class Solution {
             return false;
             int y=x;
     int rev=0,r;
-//what will be logic here??
+            while(y>0){
+            r=y%10;
+            rev=rev*10+r;
+            y=y/10;
             }
             if(rev==x)
             return true;
